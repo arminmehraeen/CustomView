@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="5dp"
+    android:background="@drawable/value_selector_back"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/btn_selector_inc"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_inc"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:text="0"
+        android:minWidth="60dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_selector_des"
+        android:id="@+id/btn_des"/>
+
+</LinearLayout>
